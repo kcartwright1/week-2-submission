@@ -1,0 +1,137 @@
+body{
+  width: 1500px;
+  margin: 0 auto;
+  word-wrap: break-word;
+  color: #974d87;
+  font-family: "sofia";
+  background-color: #0c0c0c;
+
+ 
+}
+
+.header {
+    float: top;
+    background-color: #000000;
+    background-image: url("images/blacksnakenice2.jpg");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-position: right;
+    display: flex;
+    gap: 1rem;
+    z-index: 1;
+      padding-top: 5px;
+      padding-right: 30px;
+      padding-bottom: 5px;
+      padding-left: 40px;
+      font-family: "Sofia";
+      overflow:hidden;
+      width: 100%;
+      }
+
+
+div.mainsections-container{
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+}
+
+.section1{
+    width: 275px;
+    height: 250px;
+    background-color: #6e04ac;
+}
+.section2{
+    width: 275px;
+    height: 250px;
+    background-color: #0499ac;
+}
+.section3{
+    width: 275px;
+    height: 250px;
+    background-color: #ac0490;
+}
+#numberofsnakes{
+font-size: 4em;
+text-align: center;
+}
+
+#snakespersecond{
+  font-size: 1.5em;
+  text-align: center;
+} 
+
+#buttonHolder{
+  display: flex;
+  justify-content: center;
+  padding: 10px;
+  border-bottom: 1px solid #333;
+}
+
+#thebutton{
+  
+            width: 300px; 
+            height: 200px; 
+            font-size: 2rem;
+}
+
+#thebutton:active {
+  background-color: #60ff40
+}
+
+
+#errorMessage {
+  color: #6cfa41;
+  text-align: center;
+  font-size: 1.5em
+}
+#shop {
+  max-width: 600px;
+  margin: 0 auto;
+  align-items: center
+}
+
+.shop-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-size: 1.4em;
+  border-bottom: 1px solid #333;
+}
+
+h1 {
+font-family: "Sofia", sans-serif;
+color: #08e626;
+}
+
+h2 {
+color: limegreen;
+font-family: Arial, Helvetica, sans-serif;
+}
+h4{
+color: #ffffff;
+font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+  font-size: 20px;
+
+}
+
+.footer{
+    background-color: #000000;
+    background-image: url("images/blacksnakenice2.jpg");
+    background-repeat: no-repeat;
+    background-position: right;
+    color: #6e04ac;
+    text-align: center;
+    padding: 5px;
+    font-size: 15px;
+    overflow:auto;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+  }
